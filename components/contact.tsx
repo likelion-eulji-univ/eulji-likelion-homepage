@@ -131,7 +131,11 @@ export default function Contact() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <button className='px-12 py-5 bg-primary text-primary-foreground rounded-xl font-bold text-lg hover:scale-110 transition-all duration-500 shadow-xl hover:shadow-primary/50 hover:shadow-2xl animate-pulse-glow'>
+          <button
+            className='px-12 py-5 bg-primary text-primary-foreground rounded-xl font-bold text-lg hover:scale-110 transition-all duration-500 shadow-xl hover:shadow-primary/50 hover:shadow-2xl animate-pulse-glow'
+            onClick={() => alert("🦁 아기사자 모집 기간이 아닙니다.")}
+            style={{ animationDelay: "900ms" }}
+          >
             지원서 제출하기
           </button>
         </div>
@@ -147,7 +151,7 @@ export default function Contact() {
           <p className='mb-2'>
             © 을지대학교 멋쟁이사자처럼. All rights reserved.
           </p>
-          <p className='text-sm'>{"Made with ❤️ by LIKELION EULJI UNIV."}</p>
+          <p className='text-sm'>{"Made with 🔥 by LIKELION EULJI UNIV."}</p>
         </div>
       </div>
     </section>

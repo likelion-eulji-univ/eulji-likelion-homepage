@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { ExternalLink } from "lucide-react";
+import { link } from "fs";
 
 export default function Projects() {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,20 +30,44 @@ export default function Projects() {
     {
       title: "을지대 멋사 홈페이지",
       description: "을지대학교 멋쟁이사자처럼 홈페이지 제작",
-      tags: ["Typescript", "AWS", "Figma"],
+      tags: ["Typescript", "Tailwind CSS", "Figma"],
       image: "/eulji-likelion-page.png",
+      link: "https://eulion.netlify.app/",
     },
     {
       title: "무제",
       description: "내용없음",
       tags: ["Next.js", "TypeScript", "PostgreSQL"],
       image: "/likelion-eulji.png",
+      link: "",
     },
     {
       title: "무제",
       description: "내용없음",
       tags: ["Vue.js", "Express", "MySQL"],
       image: "/likelion-eulji.png",
+      link: "",
+    },
+    {
+      title: "무제",
+      description: "내용없음",
+      tags: ["Vue.js", "Express", "MySQL"],
+      image: "/likelion-eulji.png",
+      link: "",
+    },
+    {
+      title: "무제",
+      description: "내용없음",
+      tags: ["Vue.js", "Express", "MySQL"],
+      image: "/likelion-eulji.png",
+      link: "",
+    },
+    {
+      title: "더보기",
+      description: "더 많은 프로젝트를 볼 수 있어요",
+      tags: ["Frontend", "Backend", "AI", "Design"],
+      image: "/hello-friends.JPG",
+      link: "https://eulion-projects.notion.site/",
     },
   ];
 
@@ -99,6 +124,7 @@ export default function Projects() {
               key={index}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
+              onClick={() => window.open(project.link, "_blank")}
               className={`group bg-card rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-primary/20 transition-all duration-700 hover:-translate-y-3 cursor-pointer ${
                 isVisible ? "animate-scale-in-bounce" : "opacity-0"
               }`}

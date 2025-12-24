@@ -18,14 +18,6 @@ export default function Navigation() {
 
   const navItems = ["소개", "활동", "프로젝트", "연락처"];
 
-  // 최상단으로 스크롤하는 함수
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth", // 부드러운 스크롤
-    });
-  };
-
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
@@ -37,8 +29,11 @@ export default function Navigation() {
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex items-center justify-between h-20'>
           <div className='flex-shrink-0'>
-            <h1 className='text-2xl font-bold' onClick={scrollToTop}>
-              <span className='text-primary'>멋쟁이</span>
+            <h1
+              className='text-2xl font-bold'
+              onClick={() => (window.location.href = "/")}
+            >
+              <span className='text-primary'>🦁 멋쟁이</span>
               <span className='text-secondary-foreground'>
                 사자처럼 ⨉ 을지대학교
               </span>
@@ -56,7 +51,12 @@ export default function Navigation() {
                 {item}
               </a>
             ))}
-            <Button className='bg-primary hover:bg-primary/90 text-primary-foreground'>
+            <Button
+              className='bg-primary hover:bg-primary/90 text-primary-foreground'
+              onClick={() => alert("🦁 아기사자 모집 기간이 아닙니다.")}
+              style={{ animationDelay: "900ms" }}
+            >
+              {" "}
               지원하기
             </Button>
           </div>
@@ -85,7 +85,11 @@ export default function Navigation() {
                 {item}
               </a>
             ))}
-            <Button className='w-full bg-primary hover:bg-primary/90 text-primary-foreground mt-2'>
+            <Button
+              className='w-full bg-primary hover:bg-primary/90 text-primary-foreground mt-2'
+              onClick={() => alert("🦁 아기사자 모집 기간이 아닙니다.")}
+              style={{ animationDelay: "900ms" }}
+            >
               지원하기
             </Button>
           </div>
