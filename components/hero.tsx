@@ -94,7 +94,7 @@ export default function Hero() {
                 isVisible ? "animate-scale-in-bounce" : "opacity-0"
               }`}
               onClick={() => {
-                window.location.href = "/#소개";
+                window.location.href = "#소개";
               }}
               style={{ animationDelay: "1000ms" }}
             >
