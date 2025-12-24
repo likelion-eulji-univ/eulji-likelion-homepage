@@ -93,6 +93,9 @@ export default function Hero() {
               className={`px-8 py-4 border-2 border-primary text-primary rounded-lg font-semibold text-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300 ${
                 isVisible ? "animate-scale-in-bounce" : "opacity-0"
               }`}
+              onClick={() => {
+                window.location.href = "/#소개";
+              }}
               style={{ animationDelay: "1000ms" }}
             >
               더 알아보기
