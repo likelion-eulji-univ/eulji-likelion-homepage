@@ -139,11 +139,10 @@ export default function Contact() {
             지원서 제출하기
           </button>
         </div>
-        <br />
 
         {/* sponser */}
         <div>
-          <div className='flex justify-center items-center gap-4 mt-16 mb-8'>
+          <div className='flex justify-center items-center gap-4 mt-12 mb-8'>
             <h3 className='text-secondary-foreground/70 text-sm uppercase tracking-wider'>
               SPONSORED BY
             </h3>
@@ -161,7 +160,7 @@ export default function Contact() {
       </div>
 
       {/* Footer */}
-      <div className='relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24 pt-12 border-t border-border/20'>
+      <div className='relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-14 pt-12 border-t border-border/20'>
         <div
           className={`text-center text-secondary-foreground/60 transition-all duration-1000 delay-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
