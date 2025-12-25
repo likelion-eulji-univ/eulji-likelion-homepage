@@ -85,7 +85,7 @@ export default function Hero() {
               className={`px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-primary/50 hover:shadow-2xl ${
                 isVisible ? "animate-scale-in-bounce" : "opacity-0"
               }`}
-              onClick={() => alert("🦁 아기사자 모집 기간이 아닙니다.")}
+              onClick={() => (window.location.href = "#연락처")}
               style={{ animationDelay: "900ms" }}
             >
               지원서 제출하기
