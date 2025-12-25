@@ -53,7 +53,7 @@ export default function Navigation() {
             ))}
             <Button
               className='bg-primary hover:bg-primary/90 text-primary-foreground'
-              onClick={() => alert("🦁 아기사자 모집 기간이 아닙니다.")}
+              onClick={() => (window.location.href = "#연락처")}
               style={{ animationDelay: "900ms" }}
             >
               {" "}

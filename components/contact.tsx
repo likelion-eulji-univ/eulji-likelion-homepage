@@ -139,6 +139,25 @@ export default function Contact() {
             지원서 제출하기
           </button>
         </div>
+        <br />
+
+        {/* sponser */}
+        <div>
+          <div className='flex justify-center items-center gap-4 mt-16 mb-8'>
+            <h3 className='text-secondary-foreground/70 text-sm uppercase tracking-wider'>
+              SPONSORED BY
+            </h3>
+            <div className='flex justify-center items-center gap-12'></div>
+            <img
+              src='/Upstage_Logo_White.svg'
+              alt='Upstage Logo'
+              className='h-10 w-auto'
+            />
+            <p className='text-secondary-foreground/70 text-sm uppercase tracking-wider'>
+              (협의 중)
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Footer */}
