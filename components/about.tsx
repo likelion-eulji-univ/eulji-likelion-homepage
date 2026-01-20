@@ -68,7 +68,7 @@ export default function About() {
       name: "인공지능",
       tools: "Upstage, Agentic AI, SLM",
       detail:
-        "인공지능 모델을 활용 및 개발하여 사용자에게 맞춤형 서비스를 제공합니다.",
+        "최신 인공지능 기술과 도구를 활용하여 사용자 맞춤형 서비스를 개발합니다.",
     },
     {
       image: "/design.svg",
