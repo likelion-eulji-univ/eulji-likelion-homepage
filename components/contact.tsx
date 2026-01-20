@@ -141,7 +141,7 @@ export default function Contact() {
         </div>
 
         {/* sponser */}
-        <div>
+        {/* <div>
           <div className='flex justify-center items-center gap-4 mt-12 mb-8'>
             <h3 className='text-secondary-foreground/70 text-sm uppercase tracking-wider'>
               SPONSORED BY
@@ -156,7 +156,7 @@ export default function Contact() {
               (협의 중)
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Footer */}
@@ -169,7 +169,6 @@ export default function Contact() {
           <p className='mb-2'>
             © 을지대학교 멋쟁이사자처럼. All rights reserved.
           </p>
-          <p className='text-sm'>{"Made with 🔥 by LIKELION EULJI UNIV."}</p>
         </div>
       </div>
     </section>
