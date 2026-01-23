@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "멋쟁이사자처럼 ⨉ 을지대학교",
+  title: "을지대학교 멋쟁이사자처럼",
   description: "코딩으로 세상을 바꾸는 청년들의 열정과 도전",
   icons: {
     icon: [
