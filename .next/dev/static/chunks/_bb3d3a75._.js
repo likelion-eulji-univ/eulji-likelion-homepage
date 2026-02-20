@@ -114,7 +114,7 @@ function Hero() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: `text-lg sm:text-xl text-secondary-foreground/70 mb-12 max-w-2xl mx-auto leading-relaxed transition-all duration-700 delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`,
-                            children: "코딩으로 세상을 바꾸는 청년들의 열정과 도전"
+                            children: "당신의 상상 세상 밖으로, Possibility to Reality"
                         }, void 0, false, {
                             fileName: "[project]/components/hero.tsx",
                             lineNumber: 73,
@@ -1434,7 +1434,7 @@ function Contact() {
                         className: `text-center transition-all duration-1000 delay-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$10_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             className: "px-12 py-5 bg-primary text-primary-foreground rounded-xl font-bold text-lg hover:scale-110 transition-all duration-500 shadow-xl hover:shadow-primary/50 hover:shadow-2xl animate-pulse-glow",
-                            onClick: ()=>alert("🦁 아기사자 모집 기간이 아닙니다."),
+                            onClick: ()=>window.open("https://forms.gle/TBjznFC1xhXdfJ8KA", "_blank"),
                             style: {
                                 animationDelay: "900ms"
                             },
@@ -1464,17 +1464,17 @@ function Contact() {
                         children: "© 을지대학교 멋쟁이사자처럼. All rights reserved."
                     }, void 0, false, {
                         fileName: "[project]/components/contact.tsx",
-                        lineNumber: 169,
+                        lineNumber: 171,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/contact.tsx",
-                    lineNumber: 164,
+                    lineNumber: 166,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/contact.tsx",
-                lineNumber: 163,
+                lineNumber: 165,
                 columnNumber: 7
             }, this)
         ]
