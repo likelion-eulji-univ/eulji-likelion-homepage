@@ -16,7 +16,7 @@ export default function Projects() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     if (sectionRef.current) {
@@ -28,18 +28,18 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "을지대 멋사 홈페이지",
+      title: "을지대 멋쟁이사자처럼 홈페이지",
       description: "을지대학교 멋쟁이사자처럼 홈페이지 제작",
       tags: ["Typescript", "Tailwind CSS", "Figma"],
       image: "/eulji-likelion-page.png",
       link: "https://eulion.netlify.app/",
     },
     {
-      title: "무제",
-      description: "내용없음",
-      tags: ["Next.js", "TypeScript", "PostgreSQL"],
-      image: "/likelion-eulji.png",
-      link: "",
+      title: "드림데이즈 HelloFriends",
+      description: "26년도 드림데이즈 친구매칭 서비스 개발",
+      tags: ["JavaScript", "SpringBoot", "MySQL"],
+      image: "/hello-friends.JPG",
+      link: "https://eulji-hf.netlify.app/",
     },
     {
       title: "무제",

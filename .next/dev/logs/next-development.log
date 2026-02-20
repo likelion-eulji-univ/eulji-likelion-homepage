@@ -1,24 +1,8 @@
-[00:00:01.651] Server  LOG      ✓ Ready in 1461ms
-[00:00:06.615] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.803] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:06.803] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:06.803] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1771596542011}
-[00:02:36.591] Server  LOG      ✓ Compiled in 55ms
-[00:05:16.215] Server  LOG      ✓ Compiled in 71ms
-[00:06:01.098] Server  LOG      ✓ Compiled in 58ms
-[00:06:08.344] Server  LOG      ✓ Compiled in 63ms
-[00:06:53.297] Server  LOG      ✓ Compiled in 44ms
-[00:06:53.391] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true mb-2 mb-2 true mb-2
-[00:06:56.066] Server  ERROR   Received `true` for a non-boolean attribute `mb-2`.
-
-If you want to write it to the DOM, pass a string instead: mb-2="true" or mb-2={value.toString()}.
-[00:06:56.401] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:56.581] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true mb-2 mb-2 true mb-2
-[00:06:56.581] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:06:56.581] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:06:56.581] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#%EC%97%B0%EB%9D%BD%EC%B2%98 color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#%EC%97%B0%EB%9D%BD%EC%B2%98","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1771596951780}
-[00:07:09.547] Server  LOG      ✓ Compiled in 58ms
+[00:00:01.760] Server  LOG      ✓ Ready in 1528ms
+[00:00:31.626] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:31.802] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:31.802] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:31.802] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1771597543432}
+[00:02:38.256] Server  LOG      ✓ Compiled in 70ms
+[00:02:45.320] Server  LOG      ✓ Compiled in 38ms
+[00:03:03.020] Server  LOG      ✓ Compiled in 35ms
