@@ -14,7 +14,7 @@ export default function Contact() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     if (sectionRef.current) {
@@ -133,7 +133,9 @@ export default function Contact() {
         >
           <button
             className='px-12 py-5 bg-primary text-primary-foreground rounded-xl font-bold text-lg hover:scale-110 transition-all duration-500 shadow-xl hover:shadow-primary/50 hover:shadow-2xl animate-pulse-glow'
-            onClick={() => alert("🦁 아기사자 모집 기간이 아닙니다.")}
+            onClick={() =>
+              window.open("https://forms.gle/TBjznFC1xhXdfJ8KA", "_blank")
+            }
             style={{ animationDelay: "900ms" }}
           >
             지원서 제출하기

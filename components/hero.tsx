@@ -77,7 +77,7 @@ export default function Hero() {
                 : "opacity-0 translate-y-5"
             }`}
           >
-            {"코딩으로 세상을 바꾸는 청년들의 열정과 도전"}
+            {"당신의 상상 세상 밖으로, Possibility to Reality"}
           </p>
 
           <div className='flex flex-col sm:flex-row gap-4 justify-center items-center'>
